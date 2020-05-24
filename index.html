@@ -6,9 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Hola soy Nicol&aacute;s Duss&aacute;n</title>
         <link rel="icon" type="image/png" href="images/logo.png"/>
+        <link rel="stylesheet" href="">
+        <style>
+            header
+            {
+                background: green;
+            }
+        </style>
     </head>
     <body>
-        <header>
+        <header style="">
             <div>
                 <figure>
                     <img src="images/logo.png" width="100" height="100" alt="logo"> 
@@ -16,13 +23,13 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="">Portafolio</a>
+                            <a href="#Portafolio">Portafolio</a>
                         </li>
                         <li>
-                            <a href="">Experiencia</a>
+                            <a href="#Experiencia">Experiencia</a>
                         </li>
                         <li>
-                            <a href="">Trabajemos juntos</a>
+                            <a href="#Contacto">Trabajemos juntos</a>
                         </li>
                     </ul>
                 </nav>
@@ -34,9 +41,9 @@
                 Estudiante de <strong>Ingener&iacute;a de Software</strong> y <br/>
                 Analista de riesgos <strong>financieros</strong>
             </h1>
-            <img src="images/hero.jpg" width="500"  alt="imagen de portada"/> 
+            <img src="images/hero.jpg" width="200"  alt="imagen de portada"/> 
         </section>
-        <section>
+        <section id="Portafolio">
             <h2>Portafolio (Proyectos destacados)</h2>
             <article>
                 <h3>Pugstagram</h3>
@@ -46,14 +53,14 @@
                 <p>Pugstagram fue un proyecto construido para el programa EmpoderaTech<br/>
                    para observar los conocimientos y todo lo aprendido hasta el momento
                 </p>
-                <img src="images/Petstagram.png" width="300" alt="Pugstagram">
+                <img src="images/Petstagram.png" width="200" alt="Pugstagram">
             </article>
         </section>
-        <section>
+        <section id="Experiencia">
             <h2>M&aacute;s sobre mi experiencia</h2>
             <article>
                 <figure>
-                    <img src="images/exp.jpg" width="500" alt=""/>
+                    <img src="images/exp.jpg" width="200" alt=""/>
                 </figure>
                 <h3>Asesor de cartera CANAPRO</h3>
                 <p>Ingrese como asesor de cartera en Octubre del 2017 a la empresa <br/>
@@ -61,14 +68,17 @@
                     de cartera el cual se encontraba en un 20%, el cual durante mi gesti&oacute;n <br/>
                     como asesor y hasta la fecha en la que fui acendido a Analista de Riesgos, se <br/>
                     entrego este indicador en el 5.17%
-                <a href="https://www.canapro.coop/"> ir a la pagina principal</a>
-
+                <a href="https://www.canapro.coop/" target="_blank" /> ir a la pagina principal</a>
                 </p>
             </article>
         </section>
-        <section>
+        <section id="Contacto">
             <form action="/suscripcion/">
-                <input type="text">
+                <!--<label for="email">D&eacute;jame tu Email</label>-->
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" placeholder="D&eacute;jame tu Email" id="email">
+                <button>Enviar</button>
+                <!--<input type="submit" value="texto del boton">-->
             </form>
         </section>
 
