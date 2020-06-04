@@ -13,3 +13,18 @@ valores*/
 
 /*Selector de id #*/
 /* #portafolio*/
+
+body
+{
+    font-family: 'source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Fjalla one', sans-serif;
+}
